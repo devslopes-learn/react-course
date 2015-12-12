@@ -19017,11 +19017,11 @@ process.umask = function() { return 0; };
 var React = require('react');
 var ListItem = require('./ListItem.jsx');
 
+var ingredients = [{ "id": 1, "text": "ham" }, { "id": 2, "text": "cheese" }, { "id": 3, "text": "potatoes" }, { "id": 4, "text": "honey" }];
 var List = React.createClass({
     displayName: 'List',
 
     render: function () {
-        var ingredients = [{ "id": 1, "text": "ham" }, { "id": 2, "text": "cheese" }, { "id": 3, "text": "potatoes" }, { "id": 4, "text": "honey" }];
 
         var listItems = ingredients.map(function (item) {
             return React.createElement(ListItem, { key: item.id, ingredient: item.text });
