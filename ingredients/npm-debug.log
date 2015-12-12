@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@2.12.1
+3 info using node@v0.10.36
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info prestart react-skeleton@1.0.0
+6 info start react-skeleton@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info react-skeleton@1.0.0 Failed to exec start script
+9 verbose stack Error: react-skeleton@1.0.0 start: `watchify src/main.jsx -v -t babelify -p react -o public/js/main.js`
+9 verbose stack Exit status 8
+9 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+9 verbose stack     at EventEmitter.emit (events.js:98:17)
+9 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+9 verbose stack     at ChildProcess.emit (events.js:98:17)
+9 verbose stack     at maybeClose (child_process.js:766:16)
+9 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:833:5)
+10 verbose pkgid react-skeleton@1.0.0
+11 verbose cwd /Users/spentak/Desktop/react-course/react-skeleton
+12 error Darwin 15.0.0
+13 error argv "node" "/usr/local/bin/npm" "start"
+14 error node v0.10.36
+15 error npm  v2.12.1
+16 error code ELIFECYCLE
+17 error react-skeleton@1.0.0 start: `watchify src/main.jsx -v -t babelify -p react -o public/js/main.js`
+17 error Exit status 8
+18 error Failed at the react-skeleton@1.0.0 start script 'watchify src/main.jsx -v -t babelify -p react -o public/js/main.js'.
+18 error This is most likely a problem with the react-skeleton package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     watchify src/main.jsx -v -t babelify -p react -o public/js/main.js
+18 error You can get their info via:
+18 error     npm owner ls react-skeleton
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]
