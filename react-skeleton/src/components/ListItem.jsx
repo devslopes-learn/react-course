@@ -1,5 +1,4 @@
 var React = require('react');
-
 var ListItem = React.createClass({
     render: function() {
         return (
@@ -7,7 +6,6 @@ var ListItem = React.createClass({
                 <h4>{this.props.ingredient}</h4>
             </li>
         );
-
     }
 });
 
